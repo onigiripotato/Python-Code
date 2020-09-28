@@ -121,25 +121,25 @@ while tracker !=1:
   
   while tracker !=1:
   
-  print("Q"+str(counter)+") "+ "What is not an example of diffusion")
+  print("Q"+str(counter)+") "+ "What is an example of osmosis?")
   print("   a) You can smell perfume from the other side of the room.")
   print("   b) 24")
-  print("   c) 14")
+  print("   c) The absorption of water from the soil by root hair cells.")
   print("   d) 6")
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Wrong. This is not subtraction."
+    output = "Wrong. Osmosis reqiuires a membrane.."
     score -=1
   elif answer == "b":
-    output = "Wrong. This is not multiplication."
+    output = "Wrong. Osmosis reqiuires a membrane.."
     score -=1
   elif answer == "c":
     output = "Yes, that's right!"
     tracker =1
     score +=1
   elif answer == "d":
-    output = "Wrong. This is not division."
+    output = "Wrong. Osmosis reqiuires a membrane.."
     score -=1
   else:
     output = "Please choose a, b, c or d only."
