@@ -22,14 +22,14 @@ while tracker !=1:
     output = "Yes, that's right!"
     score -=1
   elif answer == "b":
-    output = "Wrong."
+    output = "Wrong. Refer to your periodic table again."
     score -=1
   elif answer == "c":
-    output = "Wrong."
+    output = "Wrong. Refer to your periodic table again."
     tracker =1
     score +=1
   elif answer == "d":
-    output = "Wrong."
+    output = "Wrong. Refer to your periodic table again."
     score -=1
   else:
     output = "Please choose a, b, c or d only."
@@ -123,7 +123,7 @@ while tracker !=1:
   
   print("Q"+str(counter)+") "+ "What is an example of osmosis?")
   print("   a) You can smell perfume from the other side of the room.")
-  print("   b) 24")
+  print("   b) The absorbtion of water into the small intestines.")
   print("   c) The absorption of water from the soil by root hair cells.")
   print("   d) 6")
   answer = input("Your answer: ")
