@@ -139,7 +139,7 @@ while tracker !=1:
     tracker =1
     score +=1
   elif answer == "d":
-    output = "Wrong. Osmosis reqiuires a membrane and can only take place with water molecules."
+    output = "Wrong. Osmosis reqiuires a membrane and can only take place with water molecules. :D"
     score -=1
   else:
     output = "Please choose a, b, c or d only."
