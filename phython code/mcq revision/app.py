@@ -56,7 +56,7 @@ while tracker !=1:
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Yes, that's right!"
+    output = "Yes, that's right! Good job :Dv"
     tracker =1
     score +=1
   elif answer == "b":
@@ -104,7 +104,7 @@ while tracker !=1:
     score -=1
     
   elif answer == "d":
-    output = "Yes, that's right!"
+    output = "Yes, that's right! Good job :D"
     tracker =1
     score +=1
   else:
@@ -129,17 +129,17 @@ while tracker !=1:
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Wrong. Osmosis reqiuires a membrane and can only take place with water molecules."
+    output = "Wrong. Osmosis requires a membrane and can only take place with water molecules."
     score -=1
   elif answer == "b":
-    output = "Wrong. Osmosis reqiuires a membrane and can only take place with water molecules."
+    output = "Wrong. Osmosis requires a membrane and can only take place with water molecules."
     score -=1
   elif answer == "c":
     output = "Yes, that's right!"
     tracker =1
     score +=1
   elif answer == "d":
-    output = "Wrong. Osmosis reqiuires a membrane and can only take place with water molecules."
+    output = "Wrong. Osmosis requires a membrane and can only take place with water molecules."
     score -=1
   else:
     output = "Please choose a, b, c or d only."
@@ -161,17 +161,17 @@ while tracker !=1:
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Wrong."
+    output = "Wrong. The cell wall protects the cell against osmotic stress and provides structural support."
     score -=1
   elif answer == "b":
-    output = "Wrong."
+    output = "Wrong. The cytoplasm protects the part of a cell and is very important."
     score -=1
   elif answer == "c":
-    output = "Yes, that's right!"
+    output = "Yes, that's right! Good job :D The bacteria cell does not have a nucleus but DNA instead."
     tracker =1
     score +=1
   elif answer == "d":
-    output = "Wrong."
+    output = "Wrong. The bacteria cell needs a flagellum to move around."
     score -=1
   else:
     output = "Please choose a, b, c or d only."
