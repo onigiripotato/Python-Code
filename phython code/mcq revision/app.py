@@ -161,17 +161,17 @@ while tracker !=1:
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Wrong."
+    output = "Wrong. The cell wall proptects the cell against osmosic stress and provides structural support."
     score -=1
   elif answer == "b":
-    output = "Wrong."
+    output = "Wrong. The cytoplasm protects the part of a cell and is very important."
     score -=1
   elif answer == "c":
-    output = "Yes, that's right!"
+    output = "Yes, that's right! The bacteria cell does not have a nucleus but DNA instead."
     tracker =1
     score +=1
   elif answer == "d":
-    output = "Wrong."
+    output = "Wrong. The bacteria cell needs a flagellum to move around."
     score -=1
   else:
     output = "Please choose a, b, c or d only."
