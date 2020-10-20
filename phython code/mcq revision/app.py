@@ -122,14 +122,14 @@ while tracker !=1:
   while tracker !=1:
   
   print("Q"+str(counter)+") "+ "What is an example of osmosis?")
-  print("   a) You can smell perfume from the other side of the room.")
+  print("   a) The spreading of the smell of perfume from the other side of the room.")
   print("   b) The absorbtion of water into the small intestines.")
   print("   c) The absorption of water from the soil by root hair cells.")
-  print("   d) 6")
+  print("   d) The spreading of a drop of ink after placed in water.")
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Wrong. Osmosis reqiuires a membrane.."
+    output = "Wrong. Osmosis reqiuires a membrane and can only take place with water molecules."
     score -=1
   elif answer == "b":
     output = "Wrong. Osmosis reqiuires a membrane.."
